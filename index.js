@@ -4,7 +4,7 @@ const { MongoClient, ObjectId } = require('mongodb');
 const url = 'mongodb://azure-project1:FZT4nr6Qw3CwYScH3AFIAPBLB0K4E9feRr41bJ8gXuyPsRSdKRItZdesiKqitldvWkpGhwWkCIscACDbdoQawA==@azure-project1.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@azure-project1@';
 const client = new MongoClient(url);
 const app = express();
-const port = 8080
+const port = 443
 const dbName = 'BartoszRozdolski'
 
 app.use(express.json())
